@@ -253,6 +253,8 @@ hi phpComparison guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cter
 hi phpException guifg=#0099ff ctermfg=33 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpMemberSelector guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStatement guifg=#0099ff ctermfg=33 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Pmenu guifg=#0099ff ctermfg=33 guibg=#FAFAFA ctermbg=NONE gui=NONE cterm=NONE
+hi PmenuSel guifg=#ffaa00 ctermfg=214 guibg=#FAFAFA ctermbg=NONE gui=NONE cterm=NONE
 hi pythonBuiltinObj guifg=#00bbcc ctermfg=38 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonBuiltinType guifg=#ffaa00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonClassVar guifg=#ff3377 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
