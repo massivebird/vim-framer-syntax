@@ -365,6 +365,10 @@ hi typescriptStatementKeyword guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE g
 hi typescriptTemplateSB guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptTypeReference guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptTypeAnnotation guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlH1 guifg=#FFCC66 ctermfg=221 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlH2 guifg=#EEAAFF ctermfg=219 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlH3 guifg=#00BBFF ctermfg=39 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlH4 guifg=#AADDFF ctermfg=153 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
