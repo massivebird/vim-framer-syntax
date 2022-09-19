@@ -29,7 +29,7 @@ endif
 let g:framer_syntax_dark_bold = get(g:, 'framer_syntax_dark_bold', 0)
 hi Cursor guifg=#0e0e0e ctermfg=234 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#141414 ctermbg=233 gui=NONE cterm=NONE
-hi CursorLineNR guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CursorLineNr guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi Folded guifg=#23CCDD ctermfg=44 guibg=#151515 ctermbg=233 gui=NONE cterm=NONE
@@ -371,11 +371,18 @@ hi htmlH3 guifg=#00BBFF ctermfg=39 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold 
 hi htmlH4 guifg=#AADDFF ctermfg=153 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi htmlH5 guifg=#EEAAFF ctermfg=219 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 
+" gitgutter colors
+let g:gitgutter_set_sign_backgrounds = 1
+hi SignColumn guibg=bg
+hi GitGutterAdd guifg=#0cb890 guibg=bg
+hi GitGutterAddLineNr guifg=#0cb890 guibg=bg
+hi GitGutterChange guifg=#999999 guibg=bg
+hi GitGutterDelete guifg=#fb5599 guibg=bg
+
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
-
 endif
-
+" CHANGE
 if has('nvim')
 endif
 
