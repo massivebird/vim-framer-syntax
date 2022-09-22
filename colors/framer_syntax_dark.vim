@@ -5,6 +5,7 @@
 " Author: Sundeep Malladi
 " License: MIT
 " Last Change: 2021/05/25 21:16
+" Fork: https://github.com/massivebird/vim-framer-syntax
 " ===============================================================
 
 set background=dark
@@ -190,12 +191,11 @@ hi markdownBold guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE gui=Bold cterm
 hi markdownBoldDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCode guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH1 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi markdownH2 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi markdownH3 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi markdownH4 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi markdownH5 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi markdownH6 guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi markdownH1 guifg=#E6657B ctermfg=204 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi markdownH2 guifg=#FFCC66 ctermfg=221 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi markdownH3 guifg=#00BBFF ctermfg=39 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi markdownH4 guifg=#AADDFF ctermfg=153 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi markdownH5 guifg=#EEAAFF ctermfg=219 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi markdownHeadingDelimiter guifg=#FB5599 ctermfg=204 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi markdownHeadingRule guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownId guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -365,13 +365,19 @@ hi typescriptStatementKeyword guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE g
 hi typescriptTemplateSB guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptTypeReference guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptTypeAnnotation guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi htmlH1 guifg=#E6657B ctermfg=204 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi htmlH2 guifg=#FFCC66 ctermfg=221 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi htmlH3 guifg=#00BBFF ctermfg=39 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi htmlH4 guifg=#AADDFF ctermfg=153 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi htmlH5 guifg=#EEAAFF ctermfg=219 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 
-" gitgutter colors
+" html
+hi link htmlEndTag htmlTag
+hi link htmlH1 markdownH5
+hi link htmlH2 markdownH5
+hi link htmlH3 markdownH5
+hi link htmlH4 markdownH5
+hi link htmlH5 markdownH5
+hi link htmlTitle htmlH1
+hi htmlArg guifg=#EEEEEE ctermfg=255 guibg=#0e0e0e ctermbg=234 gui=Bold cterm=NONE
+hi htmlTagName guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=Bold cterm=NONE
+
+" gitgutter
 let g:gitgutter_set_sign_backgrounds = 1
 hi SignColumn guibg=bg
 hi GitGutterAdd guifg=#0cb890 guibg=bg
