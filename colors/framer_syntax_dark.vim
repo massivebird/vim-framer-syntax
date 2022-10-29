@@ -33,7 +33,7 @@ hi CursorLine guifg=NONE ctermfg=NONE guibg=#141414 ctermbg=233 gui=NONE cterm=N
 hi CursorLineNr guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
-hi Folded guifg=#23CCDD ctermfg=44 guibg=#151515 ctermbg=233 gui=NONE cterm=NONE
+hi Folded guifg=#656565 ctermfg=44 guibg=#151515 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=NONE ctermfg=NONE guibg=#2E343A ctermbg=236 gui=NONE cterm=NONE
 hi SignColumn guifg=#333333 ctermfg=236 guibg=#0e0e0e ctermbg=234 gui=NONE cterm=NONE
@@ -368,10 +368,10 @@ hi typescriptTypeAnnotation guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gu
 
 " html
 hi link htmlEndTag htmlTag
-hi link htmlH1 markdownH5
-hi link htmlH2 markdownH5
-hi link htmlH3 markdownH5
-hi link htmlH4 markdownH5
+hi link htmlH1 markdownH1
+hi link htmlH2 markdownH2
+hi link htmlH3 markdownH3
+hi link htmlH4 markdownH4
 hi link htmlH5 markdownH5
 hi link htmlTitle htmlH1
 hi htmlArg guifg=#EEEEEE ctermfg=255 guibg=#0e0e0e ctermbg=234 gui=Bold cterm=NONE
