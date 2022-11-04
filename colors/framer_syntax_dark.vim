@@ -397,6 +397,16 @@ hi CocWarningFloat guifg=#ffcc66
 hi CocWarningHighlight guisp=#ffcc66 gui=Underline
 hi CocWarningSign guifg=#ffcc66
 
+" p00f/nvim-ts-rainbow,
+" provides rainbow parentheses
+hi rainbowcol1 guifg=#fb5599
+hi rainbowcol2 guifg=#BB89FF
+hi rainbowcol3 guifg=#FF8867
+hi rainbowcol4 guifg=#eeaaff
+hi rainbowcol5 guifg=#ecad7d
+hi rainbowcol6 guifg=#00bbff
+hi rainbowcol7 guifg=#aaddff
+
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
 endif
