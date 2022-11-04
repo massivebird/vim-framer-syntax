@@ -385,6 +385,18 @@ hi GitGutterAddLineNr guifg=#0cb890 guibg=bg
 hi GitGutterChange guifg=#999999 guibg=bg
 hi GitGutterDelete guifg=#fb5599 guibg=bg
 
+" coc
+" sign: signcolumn indicator
+" highlight: text causing warning/error
+" float: descriptive tooltip
+hi CocErrorFloat guifg=#fb5599
+hi CocErrorHighlight guisp=#fb5599 gui=Underline
+hi CocErrorSign guifg=#fb5599
+hi CocSnippetVisual guibg=#333333
+hi CocWarningFloat guifg=#ffcc66
+hi CocWarningHighlight guisp=#ffcc66 gui=Underline
+hi CocWarningSign guifg=#ffcc66
+
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
 endif
