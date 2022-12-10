@@ -32,8 +32,8 @@ hi Cursor guifg=#0e0e0e ctermfg=234 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NON
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#141414 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
-hi ErrorMsg guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
-hi Folded guifg=#23CCDD ctermfg=44 guibg=#151515 ctermbg=233 gui=NONE cterm=NONE
+hi ErrorMsg guifg=#FB5599 ctermfg=255 guibg=NONE ctermbg=204 gui=NONE cterm=NONE
+hi Folded guifg=#656565 ctermfg=44 guibg=#151515 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#333333 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=NONE ctermfg=NONE guibg=#2E343A ctermbg=236 gui=NONE cterm=NONE
 hi SignColumn guifg=#333333 ctermfg=236 guibg=#0e0e0e ctermbg=234 gui=NONE cterm=NONE
@@ -52,7 +52,7 @@ hi Conditional guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi Constant guifg=#FF8867 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Define guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Error guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
+hi Error guifg=#FB5599 ctermfg=255 guibg=NONE ctermbg=204 gui=NONE cterm=NONE
 hi Function guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#FF8867 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -384,6 +384,28 @@ hi GitGutterAdd guifg=#0cb890 guibg=bg
 hi GitGutterAddLineNr guifg=#0cb890 guibg=bg
 hi GitGutterChange guifg=#999999 guibg=bg
 hi GitGutterDelete guifg=#fb5599 guibg=bg
+
+" coc
+" sign: signcolumn indicator
+" highlight: text causing warning/error
+" float: descriptive tooltip
+hi CocErrorFloat guifg=#fb5599
+hi CocErrorHighlight guisp=#fb5599 gui=Underline
+hi CocErrorSign guifg=#fb5599
+hi CocSnippetVisual guibg=#333333
+hi CocWarningFloat guifg=#ffcc66
+hi CocWarningHighlight guisp=#ffcc66 gui=Underline
+hi CocWarningSign guifg=#ffcc66
+
+" p00f/nvim-ts-rainbow,
+" provides rainbow parentheses
+hi rainbowcol1 guifg=#fb5599
+hi rainbowcol2 guifg=#BB89FF
+hi rainbowcol3 guifg=#FF8867
+hi rainbowcol4 guifg=#eeaaff
+hi rainbowcol5 guifg=#ecad7d
+hi rainbowcol6 guifg=#00bbff
+hi rainbowcol7 guifg=#aaddff
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
