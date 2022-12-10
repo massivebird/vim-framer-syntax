@@ -368,10 +368,10 @@ hi typescriptTypeAnnotation guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gu
 
 " html
 hi link htmlEndTag htmlTag
-hi link htmlH1 markdownH5
-hi link htmlH2 markdownH5
-hi link htmlH3 markdownH5
-hi link htmlH4 markdownH5
+hi link htmlH1 markdownH1
+hi link htmlH2 markdownH2
+hi link htmlH3 markdownH3
+hi link htmlH4 markdownH4
 hi link htmlH5 markdownH5
 hi link htmlTitle htmlH1
 hi htmlArg guifg=#EEEEEE ctermfg=255 guibg=#0e0e0e ctermbg=234 gui=Bold cterm=NONE
