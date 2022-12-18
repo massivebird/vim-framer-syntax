@@ -404,6 +404,10 @@ hi CocWarningFloat guifg=#ffcc66
 hi CocWarningHighlight guisp=#ffcc66 gui=Underline
 hi CocWarningSign guifg=#ffcc66
 
+" telescope
+hi link TelescopeNormal Normal
+hi TelescopeSelection guibg=#141414
+
 " p00f/nvim-ts-rainbow,
 " provides rainbow parentheses
 hi rainbowcol1 guifg=#fb5599
