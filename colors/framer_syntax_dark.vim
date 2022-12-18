@@ -392,7 +392,9 @@ hi GitGutterDelete guifg=#fb5599 guibg=bg
 hi CocErrorFloat guifg=#fb5599
 hi CocErrorHighlight guisp=#fb5599 gui=Underline
 hi CocErrorSign guifg=#fb5599
+hi CocHintSign guifg=#333333
 hi CocSnippetVisual guibg=#333333
+hi CocUnusedHighlight guifg=#eeeeee guibg=#777777
 hi CocWarningFloat guifg=#ffcc66
 hi CocWarningHighlight guisp=#ffcc66 gui=Underline
 hi CocWarningSign guifg=#ffcc66
