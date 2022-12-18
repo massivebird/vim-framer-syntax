@@ -366,6 +366,10 @@ hi typescriptTemplateSB guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NO
 hi typescriptTypeReference guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptTypeAnnotation guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
+" native errors
+hi WarningMsg guifg=#fb5599
+hi link DiagnosticError WarningMsg
+
 " html
 hi link htmlEndTag htmlTag
 hi link htmlH1 markdownH1
@@ -389,10 +393,11 @@ hi GitGutterDelete guifg=#fb5599 guibg=bg
 " sign: signcolumn indicator
 " highlight: text causing warning/error
 " float: descriptive tooltip
-hi CocErrorFloat guifg=#fb5599
+hi link CocErrorFloat WarningMsg
 hi CocErrorHighlight guisp=#fb5599 gui=Underline
 hi CocErrorSign guifg=#fb5599
 hi CocHintSign guifg=#333333
+hi link CocErrorSign WarningMsg
 hi CocSnippetVisual guibg=#333333
 hi CocUnusedHighlight guifg=#eeeeee guibg=#777777
 hi CocWarningFloat guifg=#ffcc66
@@ -412,7 +417,6 @@ hi rainbowcol7 guifg=#aaddff
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
 endif
-" CHANGE
 if has('nvim')
 endif
 
