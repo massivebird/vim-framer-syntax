@@ -367,9 +367,10 @@ hi typescriptTemplateSB guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NO
 hi typescriptTypeReference guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi typescriptTypeAnnotation guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
+hi FloatBorder guibg=bg guifg=fg
+hi NormalFloat guibg=bg guifg=fg
+
 " native errors
-hi WarningMsg guifg=#fb5599
-hi link DiagnosticError WarningMsg
 
 " html
 hi link htmlEndTag htmlTag
@@ -409,8 +410,7 @@ hi CocWarningSign guifg=#ffcc66
 hi link TelescopeNormal Normal
 hi TelescopeSelection guibg=#141414
 
-" p00f/nvim-ts-rainbow,
-" provides rainbow parentheses
+" p00f/nvim-ts-rainbow
 hi rainbowcol1 guifg=#fb5599
 hi rainbowcol2 guifg=#BB89FF
 hi rainbowcol3 guifg=#FF8867
@@ -419,9 +419,10 @@ hi rainbowcol5 guifg=#ecad7d
 hi rainbowcol6 guifg=#00bbff
 hi rainbowcol7 guifg=#aaddff
 
-" nvim-lspconfig
+" nvim-lspconfig and native errors
 hi DiagnosticError          guifg=#fb5599
 hi DiagnosticUnderlineError guisp=#fb5599 cterm=underline gui=underline
+hi WarningMsg               guifg=#fb5599
 hi DiagnosticWarn           guifg=#ffcc66
 hi DiagnosticUnderlineWarn  guisp=#ffcc66 term=underline gui=underline
 
