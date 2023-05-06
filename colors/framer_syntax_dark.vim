@@ -1,6 +1,6 @@
 " ===============================================================
 " framer_syntax_dark
-" 
+"
 " URL: https://github.com/balanceiskey/vim-framer-syntax
 " Author: Sundeep Malladi
 " License: MIT
@@ -217,6 +217,7 @@ hi terraBraces guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi terraBrackets guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi terraSection guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi terraStringInterp guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi title guifg=#FFCC66 ctermfg=221 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi zshCommands guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshDeref guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshOldSubst guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -417,6 +418,12 @@ hi rainbowcol4 guifg=#eeaaff
 hi rainbowcol5 guifg=#ecad7d
 hi rainbowcol6 guifg=#00bbff
 hi rainbowcol7 guifg=#aaddff
+
+" nvim-lspconfig
+hi DiagnosticError          guifg=#fb5599
+hi DiagnosticUnderlineError guisp=#fb5599 cterm=underline gui=underline
+hi DiagnosticWarn           guifg=#ffcc66
+hi DiagnosticUnderlineWarn  guisp=#ffcc66 term=underline gui=underline
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
