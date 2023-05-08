@@ -410,14 +410,14 @@ hi CocWarningSign guifg=#ffcc66
 hi link TelescopeNormal Normal
 hi TelescopeSelection guibg=#141414
 
-" p00f/nvim-ts-rainbow
-hi rainbowcol1 guifg=#fb5599
-hi rainbowcol2 guifg=#BB89FF
-hi rainbowcol3 guifg=#FF8867
-hi rainbowcol4 guifg=#eeaaff
-hi rainbowcol5 guifg=#ecad7d
-hi rainbowcol6 guifg=#00bbff
-hi rainbowcol7 guifg=#aaddff
+" hiphish/nvim-ts-rainbow2
+hi TSRainbowRed guifg=#fb5599
+hi TSRainbowYellow guifg=#BB89FF
+hi TSRainbowBlue guifg=#FF8867
+hi TSRainbowOrange guifg=#eeaaff
+hi TSRainbowGreen guifg=#ecad7d
+hi TSRainbowViolet guifg=#00bbff
+hi TSRainbowCyan guifg=#aaddff
 
 " nvim-lspconfig and native errors
 hi DiagnosticError          guifg=#fb5599
