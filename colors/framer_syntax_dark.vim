@@ -41,7 +41,7 @@ hi VertSplit guifg=#333333 ctermfg=236 guibg=#0e0e0e ctermbg=234 gui=NONE cterm=
 hi NonText guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#0e0e0e ctermfg=234 guibg=#0e0e0e ctermbg=234 gui=NONE cterm=NONE
-hi Normal guifg=#EEEEEE ctermfg=255 guibg=#0e0e0e ctermbg=234 gui=NONE cterm=NONE
+hi Normal guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=NONE ctermfg=NONE guibg=#2E343A ctermbg=236 gui=NONE cterm=NONE
 hi StatusLine guifg=#656565 ctermfg=242 guibg=#0e0e0e ctermbg=234 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#333333 ctermfg=236 guibg=#0e0e0e ctermbg=234 gui=NONE cterm=NONE
