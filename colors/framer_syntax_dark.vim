@@ -370,9 +370,6 @@ hi typescriptTypeAnnotation guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gu
 hi FloatBorder guibg=bg guifg=fg
 hi NormalFloat guibg=bg guifg=fg
 
-" native errors
-
-" html
 hi link htmlEndTag htmlTag
 hi link htmlH1 markdownH1
 hi link htmlH2 markdownH2
@@ -383,7 +380,7 @@ hi link htmlTitle htmlH1
 hi htmlArg guifg=#EEEEEE ctermfg=255 guibg=#0e0e0e ctermbg=234 gui=Bold cterm=NONE
 hi htmlTagName guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=Bold cterm=NONE
 
-" gitgutter
+" airblade/git-gutter
 let g:gitgutter_set_sign_backgrounds = 1
 hi SignColumn guibg=bg
 hi GitGutterAdd guifg=#0cb890 guibg=bg
@@ -391,7 +388,7 @@ hi GitGutterAddLineNr guifg=#0cb890 guibg=bg
 hi GitGutterChange guifg=#999999 guibg=bg
 hi GitGutterDelete guifg=#fb5599 guibg=bg
 
-" coc
+" neoclide/coc.nvim
 " sign: signcolumn indicator
 " highlight: text causing warning/error
 " float: descriptive tooltip
@@ -406,7 +403,7 @@ hi CocWarningFloat guifg=#ffcc66
 hi CocWarningHighlight guisp=#ffcc66 gui=Underline
 hi CocWarningSign guifg=#ffcc66
 
-" telescope
+" nvim-telescope/telescope.nvim
 hi link TelescopeNormal Normal
 hi TelescopeSelection guibg=#141414
 
@@ -419,12 +416,16 @@ hi TSRainbowGreen guifg=#ecad7d
 hi TSRainbowViolet guifg=#00bbff
 hi TSRainbowCyan guifg=#aaddff
 
-" nvim-lspconfig and native errors
+" neovim/nvim-lspconfig and native errors
 hi DiagnosticError          guifg=#fb5599
 hi DiagnosticUnderlineError guisp=#fb5599 cterm=underline gui=underline
 hi WarningMsg               guifg=#fb5599
 hi DiagnosticWarn           guifg=#ffcc66
 hi DiagnosticUnderlineWarn  guisp=#ffcc66 term=underline gui=underline
+
+" lukas-reineke/indent-blankline.nvim
+hi IndentBlanklineChar guifg=#141414
+hi IndentBlanklineIndent1 guifg=#141414
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
