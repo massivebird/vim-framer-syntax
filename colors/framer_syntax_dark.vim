@@ -433,6 +433,7 @@ hi IndentBlanklineIndent1 guifg=#141414
 hi link LazyProp Constant
 " some plugin commits
 hi link LazyDimmed Normal
+hi link LazyCommitScope Title
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
