@@ -369,6 +369,7 @@ hi typescriptTypeAnnotation guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gu
 
 hi FloatBorder guibg=bg guifg=fg
 hi NormalFloat guibg=bg guifg=fg
+hi link Conceal Normal
 
 hi link htmlEndTag htmlTag
 hi link htmlH1 markdownH1
@@ -426,6 +427,12 @@ hi DiagnosticUnderlineWarn  guisp=#ffcc66 term=underline gui=underline
 " lukas-reineke/indent-blankline.nvim
 hi IndentBlanklineChar guifg=#141414
 hi IndentBlanklineIndent1 guifg=#141414
+
+" folke/lazy.nvim
+" plugin properties from pressing Enter
+hi link LazyProp Constant
+" some plugin commits
+hi link LazyDimmed Normal
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
