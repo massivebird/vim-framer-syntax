@@ -211,6 +211,8 @@ hi markdownOrderedListMarker guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE g
 hi markdownUrl guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrlDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrlTitleDelimiter guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi healthHeadingChar guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi healthSuccess guifg=#0e0e0e ctermfg=0 guibg=#0cb890 ctermbg=39 gui=NONE cterm=NONE
 hi helpSectionDelim guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi helpHeadline guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi helpHeader guifg=#EEAAFF ctermfg=219 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
