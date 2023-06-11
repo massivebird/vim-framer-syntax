@@ -64,6 +64,9 @@ hi Statement guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi String guifg=#BB89FF ctermfg=141 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#FFCC66 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabLineFill guifg=NONE ctermfg=NONE guibg=#0e0e0e ctermbg=233 gui=NONE cterm=NONE
+hi TabLine guifg=#656565 ctermfg=NONE guibg=#0e0e0e ctermbg=233 gui=NONE cterm=NONE
+hi TabLineSel guifg=NONE ctermfg=NONE guibg=#141414 ctermbg=233 gui=Bold cterm=NONE
 hi jsArrowFuncArgs guifg=#AADDFF ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsArrowFunction guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsAsyncKeyword guifg=#00BBFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
