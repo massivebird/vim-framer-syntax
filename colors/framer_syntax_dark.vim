@@ -430,8 +430,8 @@ hi DiagnosticWarn           guifg=#ffcc66
 hi DiagnosticUnderlineWarn  guisp=#ffcc66 term=underline gui=underline
 
 " lukas-reineke/indent-blankline.nvim
-hi IndentBlanklineChar guifg=#141414
-hi IndentBlanklineIndent1 guifg=#141414
+hi IblIndent guifg=#141414
+hi IblWhitespace guifg=#141414
 
 " folke/lazy.nvim
 " plugin properties from pressing Enter
