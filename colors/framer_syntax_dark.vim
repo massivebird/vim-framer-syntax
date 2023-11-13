@@ -199,7 +199,7 @@ hi markdownH2 guifg=#FFCC66 ctermfg=221 ctermfg=246 guibg=NONE ctermbg=NONE gui=
 hi markdownH3 guifg=#00BBFF ctermfg=39 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi markdownH4 guifg=#AADDFF ctermfg=153 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi markdownH5 guifg=#EEAAFF ctermfg=219 ctermfg=246 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi markdownHeadingDelimiter guifg=#EEEEEE ctermfg=255 guibg=#0e0e0e ctermbg=234 gui=Bold cterm=NONE
+hi markdownHeadingDelimiter guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=234 gui=Bold cterm=NONE
 hi markdownHeadingRule guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownId guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownIdDeclaration guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -383,7 +383,7 @@ hi link htmlH3 markdownH3
 hi link htmlH4 markdownH4
 hi link htmlH5 markdownH5
 hi link htmlTitle htmlH1
-hi htmlArg guifg=#EEEEEE ctermfg=255 guibg=#0e0e0e ctermbg=234 gui=Bold cterm=NONE
+hi htmlArg guifg=#EEEEEE ctermfg=255 guibg=NONE ctermbg=234 gui=Bold cterm=NONE
 hi htmlTagName guifg=#23CCDD ctermfg=44 guibg=NONE ctermbg=NONE gui=Bold cterm=NONE
 
 " airblade/git-gutter
