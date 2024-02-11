@@ -31,6 +31,7 @@ let g:framer_syntax_dark_bold = get(g:, 'framer_syntax_dark_bold', 0)
 hi Cursor guifg=#0e0e0e ctermfg=234 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#141414 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ColorColumn guifg=#0e0e0e ctermfg=243 guibg=#141414 ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#EEEEEE ctermfg=255 guibg=#FB5599 ctermbg=204 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#FB5599 ctermfg=255 guibg=NONE ctermbg=204 gui=NONE cterm=NONE
 hi Folded guifg=#656565 ctermfg=44 guibg=#151515 ctermbg=233 gui=NONE cterm=NONE
