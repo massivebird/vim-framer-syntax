@@ -414,14 +414,14 @@ hi CocWarningSign guifg=#ffcc66
 hi link TelescopeNormal Normal
 hi TelescopeSelection guibg=#141414
 
-" hiphish/nvim-ts-rainbow2
-hi TSRainbowRed guifg=#fb5599
-hi TSRainbowYellow guifg=#BB89FF
-hi TSRainbowBlue guifg=#FF8867
-hi TSRainbowOrange guifg=#eeaaff
-hi TSRainbowGreen guifg=#ecad7d
-hi TSRainbowViolet guifg=#00bbff
-hi TSRainbowCyan guifg=#aaddff
+" hiphish/rainbow-delimiters.nvim
+hi RainbowDelimiterRed guifg=#fb5599
+hi RainbowDelimiterYellow guifg=#BB89FF
+hi RainbowDelimiterBlue guifg=#FF8867
+hi RainbowDelimiterOrange guifg=#eeaaff
+hi RainbowDelimiterGreen guifg=#ecad7d
+hi RainbowDelimiterViolet guifg=#00bbff
+hi RainbowDelimiterCyan guifg=#aaddff
 
 " neovim/nvim-lspconfig and native errors
 hi DiagnosticError          guifg=#fb5599
