@@ -376,6 +376,7 @@ hi typescriptTypeAnnotation guifg=#999999 ctermfg=246 guibg=NONE ctermbg=NONE gu
 hi FloatBorder guibg=bg guifg=fg
 hi NormalFloat guibg=bg guifg=fg
 hi link Conceal Normal
+hi link WinSeparator VertSplit
 
 hi link htmlEndTag htmlTag
 hi link htmlH1 markdownH1
