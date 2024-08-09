@@ -441,6 +441,10 @@ hi link LazyProp Constant
 hi link LazyDimmed Normal
 hi link LazyCommitScope Title
 
+" nvim-treesitter/nvim-treesitter-context
+hi link TreesitterContext LineNr
+hi link TreesitterContextSeparator LineNr
+
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
 endif
