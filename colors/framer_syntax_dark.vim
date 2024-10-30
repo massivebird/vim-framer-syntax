@@ -446,6 +446,11 @@ hi link LazyCommitScope Title
 hi link TreesitterContext LineNr
 hi link TreesitterContextSeparator LineNr
 
+" Saghen/blink.cmp
+hi BlinkCmpMenu guifg=#eeeeee guibg=bg
+hi BlinkCmpMenuBorder guifg=#eeeeee guibg=bg
+hi BlinkCmpMenuSelection guifg=#00bbff guibg=#333333
+
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
 endif
