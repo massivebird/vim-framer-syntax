@@ -15,7 +15,6 @@ if exists("syntax_on")
 endif
 let g:colors_name="framer_syntax_dark"
 
-
 let Italic = ""
 if exists('g:framer_syntax_dark_italic')
   let Italic = "italic"
@@ -449,7 +448,12 @@ hi link TreesitterContextSeparator LineNr
 " Saghen/blink.cmp
 hi BlinkCmpMenu guifg=#eeeeee guibg=bg
 hi BlinkCmpMenuBorder guifg=#eeeeee guibg=bg
-hi BlinkCmpMenuSelection guifg=#00bbff guibg=#333333
+hi BlinkCmpMenuSelection ctermfg=0 ctermbg=15 guifg=#00bbff guibg=#333333
+
+" lewis6991/gitsigns.nvim
+hi GitSignsAdd guifg=#0cb890
+hi GitSignsChange guifg=#999999
+hi GitSignsDelete guifg=#fb5599
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
